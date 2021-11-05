@@ -5,7 +5,6 @@ import path from "path"
 const args = process.argv
 const year = args[2].toString()
 
-console.log(year)
 const getPdf = async (mon,day)=> {
     try {
         if(mon<10)

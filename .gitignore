@@ -9,3 +9,11 @@ pdf/**
 
 #Users List
 users.txt
+
+# Python Venv Extras
+intelligence-py-module/bin
+intelligence-py-module/lib
+intelligence-py-module/lib64
+intelligence-py-module/share
+intelligence-py-module/include
+intelligence-py-module/pyvenv.cfg

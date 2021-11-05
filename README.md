@@ -1,23 +1,35 @@
-# Hack The Box Intelligence
+# Hack The Box - Intelligence - Software Tools
 
-## Scripts written to automate tasks while working through Intelligence htb
+## Fetchs all Pdf files, compiles user text file, checks pdf files for key words
+## Requirements:
+- Python3
+- Python3 venv
+- Python3 pip
+- node v15 or later
 
-Node > v.15 
-Must have exiftool, cut and grep available as commands on system
-
-## intelligence.js
-Use to enumerate links with 200 response code and download all pdfs
-Usage:
-node intelligence.js <2 digit year format>
+## Set-Up:
+- Create Python venv
 ```shell
-node intelligence.js 21
+python3 -m venv ./intelligence-py-module
+```
+- Activate Python venv
+```shell
+source ./intelligence-py-module/bin/activate
+```
+- Install Python pdfminer
+```shell
+python3 -m pip install pdfminer.six
 ```
 
-
-## getUsernames.js
-Uses exift tool to compile list of usernames in .txt format
-
-Usage:
+## Usage
+- Fetch & Download all PDFs
 ```shell
-node getUsernames.js
+npm run getPdfs
 ```
+- Compile user list and check keywords
+```shell
+npm run checkPdfs <keyword>
+```
+ It is advised to check for relevant information. i.e user, username, password, default, etc. <br>
+ Multiple use of the above command will result in a longer user file.
+ 
