@@ -1,0 +1,13 @@
+{
+  "name": "intelligence",
+  "version": "1.0.0",
+  "description": "## Scripts written to automate tasks while working through Intelligence htb",
+  "main": "parsePDF.js",
+  "scripts": {
+    "getPdf": "node intelligence-ES-module/intelligence.js 20; node intelligence-ES-module/intelligence.js 21",
+    "getUsers": "node intelligence-ES-module/getUsernames.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

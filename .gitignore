@@ -1,0 +1,11 @@
+#node_modules
+**/node_modules
+
+#nmap scan
+nmap.txt
+
+#pdf downloads
+pdf/**
+
+#Users List
+users.txt
