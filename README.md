@@ -1,6 +1,7 @@
 # Hack The Box - Intelligence - Software Tools
-
 ## Fetchs all Pdf files, compiles user text file, checks pdf files for key words
+- Fetching api will query http://intelligence.htb
+- Be sure to update your /etc/hosts file
 ## Requirements:
 - Python3
 - Python3 venv
