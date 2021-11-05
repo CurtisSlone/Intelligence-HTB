@@ -33,3 +33,8 @@ npm run checkPdfs <keyword>
  It is advised to check for relevant information. i.e user, username, password, default, etc. <br>
  Multiple use of the above command will result in a longer user file.
  
+ # Deactivation
+ - Python venv deactivation
+ ```shell
+ deactivate
+ ```
